@@ -1,0 +1,2 @@
+ #!/bin/sh
+ PID=$(ps -u ophuong | grep sshd | awk '{print }'}; kill $PID 

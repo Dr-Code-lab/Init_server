@@ -1,0 +1,2 @@
+#!/bin/sh
+nohup tail -f /var/log/syslog &

@@ -1,0 +1,2 @@
+For graphic session: "su - new_username"
+For ssh session: ssh new_username@localhost

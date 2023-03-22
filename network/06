@@ -1,0 +1,19 @@
+#!/bin/sh
+echo "\033[33mAt the begining we can read a book or ask google,
+to get name of file which we need
+and the path where this file usualy located.
+
+	\033[36mPATH 1: /etc/resolv.conf
+
+\033[33mAfter reading we should to know that /ets/resolv.conf is a symlink,
+we can check it with command \033[35mls -l /etc/resolv.conf\033[33m.
+Now we have second path to file resolv.conf.
+
+	\033[36mPATH 2: /var/run/resolv.conf
+
+\033[33mBut derictory /var is a symlink too.
+We can use command \033[35mfind / -type f -name resolv.conf 2>/dev/null
+\033[33mto get all real paths of file resolv.conf.
+
+	\033[36mPATH 3: /private/var/run/resolv.conf
+	PATH 4: /usr/local/go/src/net/testdata/resolv.conf\033[0m"

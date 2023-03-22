@@ -1,0 +1,2 @@
+#!/bin/sh
+du -h /var --max-depth=1

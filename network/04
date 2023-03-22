@@ -1,0 +1,3 @@
+#!/bin/sh
+GaWa=$(route -n get default | grep gateway | awk '{print "\033[36m" $2}')
+echo "\033[33mGateway: \033[0m" $GaWa

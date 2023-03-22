@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "\033[33mGet IP of provider's DNS server
+Command:	\033[35mdig slash16.org +short
+
+\033[33mList of IP:
+	\033[36m13.33.242.162
+	13.33.242.74
+	13.33.242.215
+	13.33.242.31
+
+\033[33mCheck it with Whois-sevice.
+Command:	\033[35mwhois [ IP ]
+
+\033[33mProvider is \033[36mAmazon.com, Inc.\033[0m"

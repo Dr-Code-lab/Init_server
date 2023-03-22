@@ -1,0 +1,2 @@
+#!/bin/sh
+last | grep boot | awk '{print }'; last | grep boot | awk '{print }'

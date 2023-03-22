@@ -1,0 +1,3 @@
+#!/bin/sh
+IP=$(ifconfig | grep inet  | grep broadcast | awk '{print $2}')
+echo "\033[33mIP: \033[36m$IP\033[0m"

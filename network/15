@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "\033[33mJust to add a string \033[36m\"46.19.122.85 intre.42.fr\" \033[33minto file \033[36m/etc/hosts\033[0m"

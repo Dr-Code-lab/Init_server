@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "\033[33mIt is 1st server in the output previous command 
+(gateway of local network)
+\033[33mName:	\033[36m192.168.30.1
+\033[33mIP:	\033[36m192.168.30.1\033[0m"

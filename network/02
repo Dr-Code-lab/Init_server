@@ -1,0 +1,5 @@
+#!/bin/sh
+BrAd=$(ifconfig | grep -A0 broadcast | awk '{print $6}')
+echo "\033[33mA. Broadcast address:\033[0m \033[32m$BrAd \033[0m"
+echo "\033[33mB. IP adresses: \033[0m"
+ping $BrAd -c 2 | grep 192.168 | grep -v $BrAd | awk '{gsub(":",""); print "\033[32m" $4}' | sort

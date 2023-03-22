@@ -1,0 +1,3 @@
+#!/bin/sh
+IP=$(dig slash16.org +short)
+echo "\033[33mExternal DNS server:\033[0m\n\033[36m$IP\033[0m"

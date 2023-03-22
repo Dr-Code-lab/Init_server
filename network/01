@@ -1,0 +1,3 @@
+#!/bin/sh
+list=$(ifconfig -l)
+echo "\033[35m$list\033[0m"

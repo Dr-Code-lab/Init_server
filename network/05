@@ -1,0 +1,2 @@
+#!/bin/sh
+nslookup slash16.org | grep Server | awk '{print "\033[33mIP address of the DNS: \033[0m" "\033[36m" $2}'

@@ -1,0 +1,6 @@
+Service which help to run specific task following a regular schudle is Cron.
+Just do some things:
+1.	Run command "crontab -e" in terminal for to configure cron.
+2.	Choose text editor for editing crontab files
+3.	Write task which you need (m h dom mon dow command).
+4.	Save and exit text editor (Commands will install automatically).

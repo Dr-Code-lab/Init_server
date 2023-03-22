@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "\033[33mFile contains the local DNS entries:
+\033[36m/etc/hosts\033[0m"

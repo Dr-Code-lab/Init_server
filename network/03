@@ -1,0 +1,3 @@
+#!/bin/sh
+MAC=$(ifconfig | grep -A1 en1 | grep ether  | awk '{print "\033[36m" $2}')
+echo "\033[33mMAC address of the Wi-Fi card:\033[0m $MAC"

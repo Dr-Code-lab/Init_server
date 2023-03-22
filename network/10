@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "\033[33mPlease wait a few time..."
+TR=$(traceroute 42.fr)
+echo "\033[36m$TR\0033[0m"
